@@ -1,0 +1,25 @@
+# Java build output
+*.class
+*.iml
+out/
+**/target/
+
+# IDE-specific settings
+.idea/
+.vscode/
+
+# Runtime logs and temporary files
+*.log
+apache-tomcat-*/logs/
+apache-tomcat-*/temp/
+apache-tomcat-*/work/
+
+# Deployed Tomcat artifacts
+apache-tomcat-*/webapps/*.war
+apache-tomcat-*/webapps/**/*.war
+apache-tomcat-*/webapps/servlet-1.0-SNAPSHOT/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
